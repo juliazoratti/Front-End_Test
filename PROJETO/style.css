@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+  background: #E6EFF6;
+}
+
+.titulo1{
+  color : #4ABEBD;
+  font-family: "Karla";
+  font-size: 20px;
+  font-weight: 400px, 700px;
+  top: 40px;
+  right: -40px;
+  position: relative;
+  
+  
+}
+.informacao1{
+  color: #BFDF34;
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400, 700;
+  top: 45px;
+  right: -40px;
+  position: relative;
+}
+.informacao2{
+  color : #E8E8E8;
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400, 700;
+  top: 40px;
+  right: -40px;
+  position: relative;
+}
+.quadrante1{
+  background: #FFFFFF;
+  width: 600px;
+  height: 200px;
+  box-shadow: 0px 0px 5px 0px gray;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.titulo2{
+  color : white;
+  font-family: "Karla";
+  font-size: 15px;
+  font-weight: 400px, 700px;
+  top: 30px;
+  right: -50px;
+  position: relative;
+}
+
+.informacao222{
+  color : white;
+  font-family: "Karla";
+  font-size: 30px;
+  font-weight: 400px, 700px;
+  top: 30px;
+  right: -50px;
+  position: relative;
+}
+
+.descricao{
+  color : white;
+  font-family: "Karla";
+  font-size: 13px;
+  font-weight: 400px, 700px;
+  top: -15px;
+  right: -120px;
+  position: relative;
+}
+
+.informacao22{
+  color : white;
+  font-family: "Karla";
+  font-size: 13px;
+  font-weight: 400px, 700px;
+  top: -10px;
+  right: -50px;
+  position: relative;
+}
+button{
+  background-color: #BFDF34;
+  color : white;
+  font-size: 16px;
+  font-family: "Karla";
+  border-radius: 5px;
+  border: none;
+  outline:none;
+  box-shadow: 1px 2px 5px 2px #E0EBF4;
+  margin-top: 0px;
+  cursor: pointer;
+  transition: .3s;
+  right:-45px;
+  top: 0px;
+  position: relative;
+  padding: 10px 80px;
+  
+}
+
+button:hover{
+  opacity:.9;
+}
+button:active{
+   box-shadow: none;
+  position: relative;
+  top: 1px;
+}
+
+.quadrante2{
+  background: #2BB3B1;
+  box-shadow: 0px 0px 5px 0px gray;
+  margin: 20px auto;
+  box-sizing: border-box;
+  position: relative;
+  top: -20px;
+  left : -150px;
+  width: 300px;
+  height: 250px;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.titulo3{
+    color : white;
+    font-family: "Karla";
+    font-size: 16px;
+    font-weight: 400px, 700px;
+    top: 25px;
+    right: -45px;
+    position: relative;
+  }
+  
+  .informacao3{
+    color : #88E8E8;
+    font-family: "Karla";
+    font-size: 12px;
+    font-weight: 400px, 700px;
+    top: 25px;
+    right: -45px;
+    position: relative;
+    text-align: left;
+    line-height: 20px;
+  }
+
+.quadrante3{
+    position: relative;
+    background: #4ABEBD;
+    box-shadow: 0px 0px 5px 0px gray;
+    margin: 20px auto;
+    box-sizing: border-box;
+    top: -290px;
+    right: -150px;
+    width: 300px;
+    height: 250px;
+    /*display: inline-block;*/
+    border-radius: 0px 0px 10px 0px;
+  }
+  

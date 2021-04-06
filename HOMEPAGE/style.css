@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+body{
+  font-family: "Josefin Sans";
+  background-color:#FFF7F8;
+  width:100%;
+  margin: 0;
+  min-width: 375px;
+  max-width: 500px;
+}
+.imagem{
+  position: relative;
+  top : -20px;
+  width: 500px;
+  left: 849px;
+}
+.logo{
+  position: relative;
+  top: -620px;
+  right: -100px;
+}
+.anuncio{
+  font-size: 16px;
+}
+.we{
+  font-weight: 300;
+  color: #CDACAF;
+  position: relative;
+  top: -550px;
+  right: -100px;
+  letter-spacing: 10px;
+  font-size: 50px;
+}
+.comming{
+  font-weight: 600;
+  position: relative;
+  top: -580px;
+  right: -100px;
+  letter-spacing: 10px;
+  line-height: 70px;
+  font-size: 50px;
+}
+.descricao{
+  font-weight:400;
+  position: relative;
+  top: -600px;
+  color:#CDACAF;
+  font-size: 16px;
+  right: -100px;
+}
+#email{
+  border-radius: 30px 30px 30px 30px;
+  border: solid 1px;
+  border-color: #CDACAF;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  position: relative;
+  top: -600px;
+  right: -100px;
+  width: 400px;
+  height: 50px;
+  color: black;
+  outline:none;
+}
+.botao{
+  background-color: #F39B9A;
+  position: relative;
+  top: -595px;
+  right: -50px;
+  height: 55px;
+  width: 90px;
+  box-shadow:0px 10px 10px 0px #F2C5C4;
+  border-radius: 20px 20px 20px 20px;
+  border:none;
+  cursor: pointer;
+  transition: .3s;
+  outline:none;
+}
+.botao:hover{
+  background-color: #F6A5A8;
+}
+#erro{
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    position: relative;
+    top: -595px;
+    right: -105px;
+    display:none;
+    color: #F01C00;
+  }
+#acerto{
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    position: relative;
+    top: -595px;
+    right: -105px;
+    display:none;
+    color: #0BD91E;
+}
